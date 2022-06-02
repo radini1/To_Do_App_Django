@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>To do list</title>
+  <meta name="description" content="A simple HTML5 Template for new projects.">
+  <meta name="author" content="SitePoint">
+
+  <meta property="og:title" content="A Basic HTML5 Template">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
+  <meta property="og:description" content="A simple HTML5 Template for new projects.">
+  <meta property="og:image" content="image.png">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Quicksand&display=swap" rel="stylesheet">
+
+  
+  <style>
+    body {
+      background-color:gainsboro;
+      font-family: 'Quicksand', sans-serif;
+      padding-top: 50px;
+        }
+
+      .container{
+        max-width: 550px;
+        margin: auto;
+        background-color:#fff;
+        -webkit-box-shadow: 2px 2px 13px -4px rgba(0,0,0,0,21);
+        box-shadow: 2px 2px 13px -4px rgba(0,0,0,0,21);
+      }
+
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    {% block content%}
+
+    {% endblock content%}
+
+  </div>
+</body>
+</html>
